@@ -1,0 +1,66 @@
+CRITICAL - 2022-08-28 03:30:15 --> Undefined variable $totalTime
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 40.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'SYSTEMPATH\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 40)
+ 2 SYSTEMPATH\Debug\Toolbar.php(515): include('SYSTEMPATH\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(478): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(317): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-28 03:30:33 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'gaji' in C:\xampp\htdocs\gaji\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\gaji\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'gaji', 3306, '', 0)
+#1 C:\xampp\htdocs\gaji\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\gaji\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\gaji\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\gaji\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gaji\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\gaji\app\Controllers\Home.php(64): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\gaji\system\CodeIgniter.php(904): App\Controllers\Home->prosesLogin()
+#8 C:\xampp\htdocs\gaji\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\gaji\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\gaji\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'gaji' in C:\xampp\htdocs\gaji\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\gaji\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\gaji\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\gaji\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\gaji\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\gaji\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\gaji\app\Controllers\Home.php(64): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\gaji\system\CodeIgniter.php(904): App\Controllers\Home->prosesLogin()
+#7 C:\xampp\htdocs\gaji\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\gaji\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\gaji\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-28 03:30:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'gaji'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Home.php(64): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->prosesLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 04:09:05 --> Cannot redeclare App\Controllers\Home::tambahJabatan()
+in APPPATH\Controllers\Home.php on line 310.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-28 04:25:36 --> Undefined variable $jabatan
+in APPPATH\Views\tambahPegawai.php on line 252.
+ 1 APPPATH\Views\tambahPegawai.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jabatan', 'APPPATH\\Views\\tambahPegawai.php', 252)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tambahPegawai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('tambahPegawai', [], true)
+ 5 APPPATH\Controllers\Home.php(322): view('tambahPegawai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->tambahPegawai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

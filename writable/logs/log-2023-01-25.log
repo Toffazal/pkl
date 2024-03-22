@@ -1,0 +1,63 @@
+CRITICAL - 2023-01-25 20:56:00 --> Class "App\Models\Kelompok" not found
+in APPPATH\Views\kajur\pembimbing.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/pembimbing', [], true)
+ 4 APPPATH\Controllers\Kajur.php(175): view('kajur/pembimbing', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->pembimbing()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 20:57:05 --> Undefined property: stdClass::$uid
+in APPPATH\Views\kajur\pembimbing.php on line 104.
+ 1 APPPATH\Views\kajur\pembimbing.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$uid', 'APPPATH\\Views\\kajur\\pembimbing.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kajur\\pembimbing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/pembimbing', [], true)
+ 5 APPPATH\Controllers\Kajur.php(175): view('kajur/pembimbing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->pembimbing()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 20:57:51 --> Attempt to read property "uid" on array
+in APPPATH\Views\kajur\pembimbing.php on line 104.
+ 1 APPPATH\Views\kajur\pembimbing.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "uid" on array', 'APPPATH\\Views\\kajur\\pembimbing.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kajur\\pembimbing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/pembimbing', [], true)
+ 5 APPPATH\Controllers\Kajur.php(175): view('kajur/pembimbing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->pembimbing()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 21:00:55 --> Unmatched '}'
+in APPPATH\Views\kajur\pembimbing.php on line 115.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/pembimbing', [], true)
+ 3 APPPATH\Controllers\Kajur.php(175): view('kajur/pembimbing', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->pembimbing()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 21:14:10 --> Attempt to read property "tempat_pkl" on null
+in APPPATH\Views\kajur\pembimbing.php on line 108.
+ 1 APPPATH\Views\kajur\pembimbing.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tempat_pkl" on null', 'APPPATH\\Views\\kajur\\pembimbing.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kajur\\pembimbing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/pembimbing', [], true)
+ 5 APPPATH\Controllers\Kajur.php(175): view('kajur/pembimbing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->pembimbing()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 21:15:15 --> Attempt to read property "uid" on null
+in APPPATH\Views\kajur\pembimbing.php on line 108.
+ 1 APPPATH\Views\kajur\pembimbing.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "uid" on null', 'APPPATH\\Views\\kajur\\pembimbing.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kajur\\pembimbing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/pembimbing', [], true)
+ 5 APPPATH\Controllers\Kajur.php(175): view('kajur/pembimbing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->pembimbing()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

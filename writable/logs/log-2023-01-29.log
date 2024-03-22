@@ -1,0 +1,92 @@
+CRITICAL - 2023-01-29 21:12:45 --> Undefined variable $menu
+in APPPATH\Views\kajur\tambahKelompok.php on line 91.
+ 1 APPPATH\Views\kajur\tambahKelompok.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'APPPATH\\Views\\kajur\\tambahKelompok.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kajur\\tambahKelompok.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/tambahKelompok', [], true)
+ 5 APPPATH\Controllers\Kajur.php(197): view('kajur/tambahKelompok', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->tambahKelompok('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 21:14:11 --> Undefined variable $siswa
+in APPPATH\Views\kajur\tambahKelompok.php on line 91.
+ 1 APPPATH\Views\kajur\tambahKelompok.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\kajur\\tambahKelompok.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kajur\\tambahKelompok.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/tambahKelompok', [], true)
+ 5 APPPATH\Controllers\Kajur.php(198): view('kajur/tambahKelompok', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->tambahKelompok('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 21:14:33 --> Undefined variable $menu
+in APPPATH\Views\kajur\tambahKelompok.php on line 124.
+ 1 APPPATH\Views\kajur\tambahKelompok.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'APPPATH\\Views\\kajur\\tambahKelompok.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kajur\\tambahKelompok.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/tambahKelompok', [], true)
+ 5 APPPATH\Controllers\Kajur.php(199): view('kajur/tambahKelompok', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->tambahKelompok('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:14:01 --> Undefined property: App\Controllers\Kajur::$Kelompok
+in APPPATH\Controllers\Kajur.php on line 222.
+ 1 APPPATH\Controllers\Kajur.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Kajur::$Kelompok', 'APPPATH\\Controllers\\Kajur.php', 222)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->simpanKelompok()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:36:33 --> Attempt to read property "tempat_pkl" on null
+in APPPATH\Views\kajur\tambahKelompok.php on line 94.
+ 1 APPPATH\Views\kajur\tambahKelompok.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tempat_pkl" on null', 'APPPATH\\Views\\kajur\\tambahKelompok.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kajur\\tambahKelompok.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/tambahKelompok', [], true)
+ 5 APPPATH\Controllers\Kajur.php(203): view('kajur/tambahKelompok', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->tambahKelompok('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:56:06 --> syntax error, unexpected token ";"
+in APPPATH\Controllers\Kajur.php on line 201.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Kajur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Kajur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Kajur')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Kajur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:56:21 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\kajur\tambahKelompok.php on line 85.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/tambahKelompok', [], true)
+ 4 APPPATH\Controllers\Kajur.php(215): view('kajur/tambahKelompok', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->tambahKelompok('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:57:22 --> Attempt to read property "tempat_pkl" on string
+in APPPATH\Views\kajur\tambahKelompok.php on line 85.
+ 1 APPPATH\Views\kajur\tambahKelompok.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tempat_pkl" on string', 'APPPATH\\Views\\kajur\\tambahKelompok.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kajur\\tambahKelompok.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/tambahKelompok', [], true)
+ 5 APPPATH\Controllers\Kajur.php(215): view('kajur/tambahKelompok', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->tambahKelompok('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 23:25:09 --> Attempt to read property "tempat_pkl" on null
+in APPPATH\Views\kajur\tambahKelompok.php on line 96.
+ 1 APPPATH\Views\kajur\tambahKelompok.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tempat_pkl" on null', 'APPPATH\\Views\\kajur\\tambahKelompok.php', 96)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kajur\\tambahKelompok.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/tambahKelompok', [], true)
+ 5 APPPATH\Controllers\Kajur.php(217): view('kajur/tambahKelompok', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->tambahKelompok('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

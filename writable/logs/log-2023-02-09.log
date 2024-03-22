@@ -1,0 +1,73 @@
+CRITICAL - 2023-02-09 10:42:40 --> Call to a member function first() on array
+in APPPATH\Controllers\Admin.php on line 957.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->simpanNilai()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 10:43:32 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Admin.php on line 962.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->simpanNilai()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 10:55:05 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Admin.php on line 978.
+ 1 APPPATH\Controllers\Admin.php(978): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\Admin.php', 978)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->simpanNilai()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 11:01:15 --> Cannot redeclare App\Controllers\Admin::simpanNilai()
+in APPPATH\Controllers\Admin.php on line 1013.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-09 11:08:59 --> Undefined variable $t
+in APPPATH\Views\admin\nilaiSertifikat.php on line 76.
+ 1 APPPATH\Views\admin\nilaiSertifikat.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $t', 'APPPATH\\Views\\admin\\nilaiSertifikat.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\nilaiSertifikat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/nilaiSertifikat', [], true)
+ 5 APPPATH\Controllers\Admin.php(1142): view('admin/nilaiSertifikat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->nilaiSertifikat('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 11:35:46 --> Attempt to read property "nama" on null
+in APPPATH\Views\kajur\riwayat.php on line 113.
+ 1 APPPATH\Views\kajur\riwayat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'APPPATH\\Views\\kajur\\riwayat.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kajur\\riwayat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/riwayat', [], true)
+ 5 APPPATH\Controllers\Kajur.php(154): view('kajur/riwayat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->riwayat()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 11:37:47 --> Undefined property: stdClass::$nama
+in APPPATH\Views\kajur\riwayat.php on line 113.
+ 1 APPPATH\Views\kajur\riwayat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'APPPATH\\Views\\kajur\\riwayat.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kajur\\riwayat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/riwayat', [], true)
+ 5 APPPATH\Controllers\Kajur.php(154): view('kajur/riwayat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->riwayat()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 21:33:25 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Kajur.php on line 233.
+ 1 APPPATH\Controllers\Kajur.php(233): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->simpanKelompok()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 21:40:48 --> Undefined property: CodeIgniter\View\View::$Permohonan
+in APPPATH\Views\siswa\dashboard.php on line 146.
+ 1 APPPATH\Views\siswa\dashboard.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$Permohonan', 'APPPATH\\Views\\siswa\\dashboard.php', 146)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siswa\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('siswa/dashboard', [], true)
+ 5 APPPATH\Controllers\Siswa.php(42): view('siswa/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

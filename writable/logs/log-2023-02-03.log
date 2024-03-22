@@ -1,0 +1,22 @@
+CRITICAL - 2023-02-03 00:44:48 --> Undefined variable $us
+in APPPATH\Views\kajur\dashboard.php on line 75.
+ 1 APPPATH\Views\kajur\dashboard.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $us', 'APPPATH\\Views\\kajur\\dashboard.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kajur\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/dashboard', [], true)
+ 5 APPPATH\Controllers\Kajur.php(55): view('kajur/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 00:45:03 --> Undefined property: stdClass::$nama
+in APPPATH\Views\kajur\dashboard.php on line 75.
+ 1 APPPATH\Views\kajur\dashboard.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'APPPATH\\Views\\kajur\\dashboard.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kajur\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/dashboard', [], true)
+ 5 APPPATH\Controllers\Kajur.php(55): view('kajur/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

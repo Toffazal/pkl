@@ -1,0 +1,62 @@
+CRITICAL - 2022-09-07 10:20:44 --> Undefined property: stdClass::$nama
+in APPPATH\Views\profile.php on line 97.
+ 1 APPPATH\Views\profile.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'APPPATH\\Views\\profile.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\Home.php(986): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 10:21:59 --> Undefined property: stdClass::$nama
+in APPPATH\Views\detailUser.php on line 156.
+ 1 APPPATH\Views\detailUser.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'APPPATH\\Views\\detailUser.php', 156)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detailUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('detailUSer', [], true)
+ 5 APPPATH\Controllers\Home.php(986): view('detailUSer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 10:23:56 --> Undefined property: stdClass::$nama
+in APPPATH\Views\detailUser.php on line 156.
+ 1 APPPATH\Views\detailUser.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'APPPATH\\Views\\detailUser.php', 156)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detailUser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('detailUSer', [], true)
+ 5 APPPATH\Controllers\Home.php(986): view('detailUSer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 10:24:14 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\akun.php on line 235.
+ 1 APPPATH\Views\akun.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\akun.php', 235)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\akun.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('akun', [], true)
+ 5 APPPATH\Controllers\Home.php(986): view('akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 10:24:52 --> Undefined property: stdClass::$nama
+in APPPATH\Views\akun.php on line 247.
+ 1 APPPATH\Views\akun.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'APPPATH\\Views\\akun.php', 247)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\akun.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('akun', [], true)
+ 5 APPPATH\Controllers\Home.php(986): view('akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 10:39:26 --> Undefined property: App\Controllers\Home::$session
+in APPPATH\Controllers\Home.php on line 1032.
+ 1 APPPATH\Controllers\Home.php(1032): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$session', 'APPPATH\\Controllers\\Home.php', 1032)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->updateAkun()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,37 @@
+CRITICAL - 2023-02-04 01:59:49 --> syntax error, unexpected single-quoted string "role", expecting "]"
+in APPPATH\Controllers\Admin.php on line 826.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 02:16:37 --> Undefined variable $penilaian
+in APPPATH\Controllers\Admin.php on line 176.
+ 1 APPPATH\Controllers\Admin.php(176): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penilaian', 'APPPATH\\Controllers\\Admin.php', 176)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->penilaian('TKJ')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 03:14:39 --> Undefined variable $kelompok
+in APPPATH\Controllers\Admin.php on line 244.
+ 1 APPPATH\Controllers\Admin.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelompok', 'APPPATH\\Controllers\\Admin.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->hapusPenilaian()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 03:14:42 --> Undefined variable $kelompok
+in APPPATH\Controllers\Admin.php on line 244.
+ 1 APPPATH\Controllers\Admin.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelompok', 'APPPATH\\Controllers\\Admin.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->hapusPenilaian()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 03:14:44 --> Undefined variable $kelompok
+in APPPATH\Controllers\Admin.php on line 244.
+ 1 APPPATH\Controllers\Admin.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelompok', 'APPPATH\\Controllers\\Admin.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->hapusPenilaian()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

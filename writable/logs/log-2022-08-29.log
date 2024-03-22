@@ -1,0 +1,14 @@
+CRITICAL - 2022-08-29 09:48:02 --> Cannot redeclare App\Controllers\Home::editJabatan()
+in APPPATH\Controllers\Home.php on line 409.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-29 09:48:29 --> Undefined variable $jabatan
+in APPPATH\Views\editPegawai.php on line 255.
+ 1 APPPATH\Views\editPegawai.php(255): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jabatan', 'APPPATH\\Views\\editPegawai.php', 255)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\editPegawai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('editPegawai', [], true)
+ 5 APPPATH\Controllers\Home.php(422): view('editPegawai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->editPegawai('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

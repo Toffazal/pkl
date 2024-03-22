@@ -1,0 +1,11 @@
+CRITICAL - 2023-02-28 04:43:47 --> Creation of dynamic property CodeIgniter\View\View::$User is deprecated
+in APPPATH\Views\admin\jurusan.php on line 7.
+ 1 APPPATH\Views\admin\jurusan.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property CodeIgniter\\View\\View::$User is deprecated', 'APPPATH\\Views\\admin\\jurusan.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\jurusan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/jurusan', [], true)
+ 5 APPPATH\Controllers\Admin.php(126): view('admin/jurusan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->jurusan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

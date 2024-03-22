@@ -1,0 +1,36 @@
+CRITICAL - 2022-08-27 00:21:39 --> Trying to get property 'password' of non-object
+in APPPATH\Controllers\Home.php on line 70.
+ 1 APPPATH\Controllers\Home.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'password\' of non-object', 'APPPATH\\Controllers\\Home.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->prosesLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 00:21:54 --> Trying to get property 'password' of non-object
+in APPPATH\Controllers\Home.php on line 70.
+ 1 APPPATH\Controllers\Home.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'password\' of non-object', 'APPPATH\\Controllers\\Home.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->prosesLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 00:28:36 --> Undefined variable: user
+in APPPATH\Views\dashboard.php on line 95.
+ 1 APPPATH\Views\dashboard.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'APPPATH\\Views\\dashboard.php', 95, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(96): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 02:57:20 --> Undefined property: stdClass::$Uang_lembur
+in APPPATH\Views\jabatan.php on line 209.
+ 1 APPPATH\Views\jabatan.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$Uang_lembur', 'APPPATH\\Views\\jabatan.php', 209, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\jabatan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('jabatan', [], true)
+ 5 APPPATH\Controllers\Home.php(109): view('jabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->jabatan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

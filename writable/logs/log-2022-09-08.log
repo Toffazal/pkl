@@ -1,0 +1,131 @@
+ERROR - 2022-09-08 02:22:16 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'hasibuan_gaji'@'localhost' to database 'gaji' in /home/hasibuan/gaji.hasibuancourse.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/hasibuan/gaji.hasibuancourse.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'hasibuan_gaji', 'Aplikasipenggaj...', 'gaji', 3306, '', 0)
+#1 /home/hasibuan/gaji.hasibuancourse.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/hasibuan/gaji.hasibuancourse.com/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/hasibuan/gaji.hasibuancourse.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/hasibuan/gaji.hasibuancourse.com/system/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/hasibuan/gaji.hasibuancourse.com/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /home/hasibuan/gaji.hasibuancourse.com/app/Controllers/Home.php(75): CodeIgniter\BaseModel->first()
+#7 /home/hasibuan/gaji.hasibuancourse.com/system/CodeIgniter.php(904): App\Controllers\Home->prosesLogin()
+#8 /home/hasibuan/gaji.hasibuancourse.com/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /home/hasibuan/gaji.hasibuancourse.com/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/hasibuan/gaji.hasibuancourse.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database 'gaji' in /home/hasibuan/gaji.hasibuancourse.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/hasibuan/gaji.hasibuancourse.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/hasibuan/gaji.hasibuancourse.com/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/hasibuan/gaji.hasibuancourse.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/hasibuan/gaji.hasibuancourse.com/system/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/hasibuan/gaji.hasibuancourse.com/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#5 /home/hasibuan/gaji.hasibuancourse.com/app/Controllers/Home.php(75): CodeIgniter\BaseModel->first()
+#6 /home/hasibuan/gaji.hasibuancourse.com/system/CodeIgniter.php(904): App\Controllers\Home->prosesLogin()
+#7 /home/hasibuan/gaji.hasibuancourse.com/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/hasibuan/gaji.hasibuancourse.com/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hasibuan/gaji.hasibuancourse.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-08 02:22:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'gaji'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(75): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->prosesLogin()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-08 02:22:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'hasibuan_gaji'@'localhost' to database 'gaji' in /home/hasibuan/gaji.hasibuancourse.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/hasibuan/gaji.hasibuancourse.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'hasibuan_gaji', 'Aplikasipenggaj...', 'gaji', 3306, '', 0)
+#1 /home/hasibuan/gaji.hasibuancourse.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/hasibuan/gaji.hasibuancourse.com/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/hasibuan/gaji.hasibuancourse.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/hasibuan/gaji.hasibuancourse.com/system/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/hasibuan/gaji.hasibuancourse.com/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /home/hasibuan/gaji.hasibuancourse.com/app/Controllers/Home.php(75): CodeIgniter\BaseModel->first()
+#7 /home/hasibuan/gaji.hasibuancourse.com/system/CodeIgniter.php(904): App\Controllers\Home->prosesLogin()
+#8 /home/hasibuan/gaji.hasibuancourse.com/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /home/hasibuan/gaji.hasibuancourse.com/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/hasibuan/gaji.hasibuancourse.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database 'gaji' in /home/hasibuan/gaji.hasibuancourse.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/hasibuan/gaji.hasibuancourse.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/hasibuan/gaji.hasibuancourse.com/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/hasibuan/gaji.hasibuancourse.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/hasibuan/gaji.hasibuancourse.com/system/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/hasibuan/gaji.hasibuancourse.com/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#5 /home/hasibuan/gaji.hasibuancourse.com/app/Controllers/Home.php(75): CodeIgniter\BaseModel->first()
+#6 /home/hasibuan/gaji.hasibuancourse.com/system/CodeIgniter.php(904): App\Controllers\Home->prosesLogin()
+#7 /home/hasibuan/gaji.hasibuancourse.com/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/hasibuan/gaji.hasibuancourse.com/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hasibuan/gaji.hasibuancourse.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-08 02:22:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'gaji'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(75): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->prosesLogin()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 02:23:28 --> Invalid file: Pegawai.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pegawai.php')
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('Pegawai', [], true)
+ 3 APPPATH/Controllers/Home.php(319): view('Pegawai', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->pegawai()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 02:27:32 --> Invalid file: Pegawai.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pegawai.php')
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('Pegawai', [], true)
+ 3 APPPATH/Controllers/Home.php(319): view('Pegawai', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->pegawai()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 02:27:43 --> Invalid file: Pegawai.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pegawai.php')
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('Pegawai', [], true)
+ 3 APPPATH/Controllers/Home.php(319): view('Pegawai', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->pegawai()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 02:29:38 --> Invalid file: Pegawai.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pegawai.php')
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('Pegawai', [], true)
+ 3 APPPATH/Controllers/Home.php(319): view('Pegawai', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->pegawai()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 02:30:29 --> Invalid file: Pegawai.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pegawai.php')
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('Pegawai', [], true)
+ 3 APPPATH/Controllers/Home.php(319): view('Pegawai', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->pegawai()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

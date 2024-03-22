@@ -1,0 +1,235 @@
+CRITICAL - 2023-02-12 08:46:17 --> Undefined property: stdClass::$email
+in APPPATH\Views\admin\editPegawai.php on line 140.
+ 1 APPPATH\Views\admin\editPegawai.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'APPPATH\\Views\\admin\\editPegawai.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\editPegawai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/editPegawai', [], true)
+ 5 APPPATH\Controllers\Admin.php(736): view('admin/editPegawai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->editPegawai('22')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 08:52:20 --> Undefined property: stdClass::$email
+in APPPATH\Views\kajur\akun.php on line 105.
+ 1 APPPATH\Views\kajur\akun.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'APPPATH\\Views\\kajur\\akun.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kajur\\akun.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kajur/akun', [], true)
+ 5 APPPATH\Controllers\Kajur.php(296): view('kajur/akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kajur->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kajur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-12 09:00:48 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pkl\app\Controllers\Pembimbing.php(34): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(904): App\Controllers\Pembimbing->index()
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pkl\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-12 09:00:48 --> Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `email` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Pembimbing.php(34): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pembimbing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 09:02:12 --> Undefined property: stdClass::$email
+in APPPATH\Views\pembimbing\akun.php on line 105.
+ 1 APPPATH\Views\pembimbing\akun.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'APPPATH\\Views\\pembimbing\\akun.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\akun.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pembimbing/akun', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(126): view('pembimbing/akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pembimbing->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-12 09:10:17 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pkl\app\Controllers\Siswa.php(34): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(904): App\Controllers\Siswa->index()
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pkl\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-12 09:10:17 --> Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `email` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Siswa.php(34): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Siswa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 09:11:20 --> Undefined property: stdClass::$email
+in APPPATH\Views\siswa\akun.php on line 105.
+ 1 APPPATH\Views\siswa\akun.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'APPPATH\\Views\\siswa\\akun.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siswa\\akun.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('siswa/akun', [], true)
+ 5 APPPATH\Controllers\Siswa.php(125): view('siswa/akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Siswa->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 09:22:35 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\Pembimbing.php on line 63.
+ 1 APPPATH\Controllers\Pembimbing.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'APPPATH\\Controllers\\Pembimbing.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pembimbing->selesai('25')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-12 09:34:53 --> mysqli_sql_exception: Unknown column 'jurusan' in 'field list' in C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pkl\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pkl\app\Controllers\Admin.php(412): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(904): App\Controllers\Admin->simpanSiswa()
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\pkl\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pkl\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-12 09:34:53 --> Unknown column 'jurusan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user` (`nama`, `nis`, `jurusan`, `kelas`, `telepon`, `alamat`, `foto`, `username`, `password`, `role`) VALUES (\'Muhammad Ikhsan Adwa\', \'123456\', \'TKJ\', \'XI TKJ 1\', \'089613325456\', \'-\', \'default.png\', \'123456\', \'$2y$10$crHjOAZ/oFJFQScpOLCDd.iTi5JFcpwgubqHcemohC7fh/NeEnWy2\', \'siswa\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `nis`, `jurusan`, `kelas`, `telepon`, `alamat`, `foto`, `username`, `password`, `role`) VALUES (\'Muhammad Ikhsan Adwa\', \'123456\', \'TKJ\', \'XI TKJ 1\', \'089613325456\', \'-\', \'default.png\', \'123456\', \'$2y$10$crHjOAZ/oFJFQScpOLCDd.iTi5JFcpwgubqHcemohC7fh/NeEnWy2\', \'siswa\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `nis`, `jurusan`, `kelas`, `telepon`, `alamat`, `foto`, `username`, `password`, `role`) VALUES (\'Muhammad Ikhsan Adwa\', \'123456\', \'TKJ\', \'XI TKJ 1\', \'089613325456\', \'-\', \'default.png\', \'123456\', \'$2y$10$crHjOAZ/oFJFQScpOLCDd.iTi5JFcpwgubqHcemohC7fh/NeEnWy2\', \'siswa\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `nis`, `jurusan`, `kelas`, `telepon`, `alamat`, `foto`, `username`, `password`, `role`) VALUES (:nama:, :nis:, :jurusan:, :kelas:, :telepon:, :alamat:, :foto:, :username:, :password:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Admin.php(412): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->simpanSiswa()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 09:39:24 --> Class "App\Models\Jurusan" not found
+in APPPATH\Views\admin\editSiswa.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/editSiswa', [], true)
+ 4 APPPATH\Controllers\Admin.php(451): view('admin/editSiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->editSiswa('26')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 09:42:37 --> Undefined property: CodeIgniter\View\View::$Jurusan
+in APPPATH\Views\admin\editPegawai.php on line 89.
+ 1 APPPATH\Views\admin\editPegawai.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$Jurusan', 'APPPATH\\Views\\admin\\editPegawai.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\editPegawai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/editPegawai', [], true)
+ 5 APPPATH\Controllers\Admin.php(737): view('admin/editPegawai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->editPegawai('27')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 09:43:01 --> Attempt to read property "id" on null
+in APPPATH\Views\admin\editPegawai.php on line 97.
+ 1 APPPATH\Views\admin\editPegawai.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Views\\admin\\editPegawai.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\editPegawai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/editPegawai', [], true)
+ 5 APPPATH\Controllers\Admin.php(737): view('admin/editPegawai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->editPegawai('27')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 09:44:06 --> Attempt to read property "id" on null
+in APPPATH\Views\admin\editPegawai.php on line 97.
+ 1 APPPATH\Views\admin\editPegawai.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Views\\admin\\editPegawai.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\editPegawai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/editPegawai', [], true)
+ 5 APPPATH\Controllers\Admin.php(737): view('admin/editPegawai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->editPegawai('27')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 10:00:27 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Admin.php on line 889.
+ 1 APPPATH\Controllers\Admin.php(889): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\Admin.php', 889)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->nilai('26')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 10:05:16 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Admin.php on line 882.
+ 1 APPPATH\Controllers\Admin.php(882): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\Admin.php', 882)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->nilai('26')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 10:08:31 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Admin.php on line 1108.
+ 1 APPPATH\Controllers\Admin.php(1108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\Admin.php', 1108)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->nilaiSertifikat('26')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 10:12:03 --> Undefined property: CodeIgniter\View\View::$Jurusan
+in APPPATH\Views\admin\nilaiSertifikat.php on line 37.
+ 1 APPPATH\Views\admin\nilaiSertifikat.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$Jurusan', 'APPPATH\\Views\\admin\\nilaiSertifikat.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\nilaiSertifikat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/nilaiSertifikat', [], true)
+ 5 APPPATH\Controllers\Admin.php(1112): view('admin/nilaiSertifikat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->nilaiSertifikat('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

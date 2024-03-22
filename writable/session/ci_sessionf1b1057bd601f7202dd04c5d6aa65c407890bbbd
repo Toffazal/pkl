@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1668143606;_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:0:{}}__ci_vars|a:2:{s:13:"_ci_old_input";s:3:"new";s:21:"_ci_validation_errors";s:3:"new";}_ci_validation_errors|s:108:"a:2:{s:8:"username";s:28:"Username tidak boleh kosong.";s:8:"password";s:28:"Password tidak boleh kosong.";}";

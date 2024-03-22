@@ -1,0 +1,54 @@
+CRITICAL - 2022-09-01 10:38:31 --> Undefined variable $jabatan
+in APPPATH\Views\tambahLembur.php on line 251.
+ 1 APPPATH\Views\tambahLembur.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jabatan', 'APPPATH\\Views\\tambahLembur.php', 251)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tambahLembur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('tambahLembur', [], true)
+ 5 APPPATH\Controllers\Home.php(592): view('tambahLembur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->tambahLembur()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 10:40:40 --> syntax error, unexpected token ";"
+in APPPATH\Views\tambahLembur.php on line 252.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('tambahLembur', [], true)
+ 3 APPPATH\Controllers\Home.php(593): view('tambahLembur', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->tambahLembur()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 10:41:01 --> syntax error, unexpected token ";"
+in APPPATH\Views\tambahLembur.php on line 252.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('tambahLembur', [], true)
+ 3 APPPATH\Controllers\Home.php(593): view('tambahLembur', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->tambahLembur()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 10:53:46 --> Call to undefined method App\Models\Lembur::fisrt
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Home.php(627): CodeIgniter\Model->__call('fisrt', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->simpanLembur()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 10:54:32 --> Call to undefined method App\Models\Pegawai::fisrt
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Home.php(627): CodeIgniter\Model->__call('fisrt', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->simpanLembur()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 10:56:44 --> Undefined property: stdClass::$tanggal_masuk
+in APPPATH\Views\lembur.php on line 255.
+ 1 APPPATH\Views\lembur.php(255): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tanggal_masuk', 'APPPATH\\Views\\lembur.php', 255)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('lembur', [], true)
+ 5 APPPATH\Controllers\Home.php(575): view('lembur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->lembur()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,204 @@
+CRITICAL - 2023-02-07 10:38:10 --> Attempt to read property "uid" on null
+in APPPATH\Views\admin\nilai.php on line 78.
+ 1 APPPATH\Views\admin\nilai.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "uid" on null', 'APPPATH\\Views\\admin\\nilai.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\nilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/nilai', [], true)
+ 5 APPPATH\Controllers\Admin.php(920): view('admin/nilai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->nilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 10:46:05 --> Undefined property: stdClass::$nama
+in APPPATH\Views\admin\nilai.php on line 80.
+ 1 APPPATH\Views\admin\nilai.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'APPPATH\\Views\\admin\\nilai.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\nilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/nilai', [], true)
+ 5 APPPATH\Controllers\Admin.php(920): view('admin/nilai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->nilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 10:46:19 --> Undefined variable $duser
+in APPPATH\Views\admin\nilai.php on line 80.
+ 1 APPPATH\Views\admin\nilai.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duser', 'APPPATH\\Views\\admin\\nilai.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\nilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/nilai', [], true)
+ 5 APPPATH\Controllers\Admin.php(920): view('admin/nilai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->nilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 10:46:27 --> Call to a member function links() on null
+in APPPATH\Views\admin\nilai.php on line 90.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/nilai', [], true)
+ 4 APPPATH\Controllers\Admin.php(920): view('admin/nilai', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->nilai()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 10:48:20 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Admin.php on line 905.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 10:48:39 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Admin.php on line 905.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 10:51:05 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, array given, called in C:\xampp\htdocs\pkl\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 1408.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->orderBy([...])
+ 2 APPPATH\Controllers\Admin.php(298): CodeIgniter\Model->__call('orderBy', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->siswa()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 10:51:32 --> Undefined constant "App\Controllers\desc"
+in APPPATH\Controllers\Admin.php on line 298.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->siswa()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 11:39:30 --> Undefined property: App\Controllers\Admin::$Kelompok
+in APPPATH\Controllers\Admin.php on line 938.
+ 1 APPPATH\Controllers\Admin.php(938): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$Kelompok', 'APPPATH\\Controllers\\Admin.php', 938)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->hapusNilai('4')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 11:45:00 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Pembimbing.php on line 74.
+ 1 APPPATH\Controllers\Pembimbing.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\Pembimbing.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pembimbing->selesai('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 11:51:24 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Pembimbing.php on line 94.
+ 1 APPPATH\Controllers\Pembimbing.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\Pembimbing.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pembimbing->selesai('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 11:52:31 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Pembimbing.php on line 81.
+ 1 APPPATH\Controllers\Pembimbing.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\Pembimbing.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pembimbing->selesai('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 11:53:09 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Pembimbing.php on line 81.
+ 1 APPPATH\Controllers\Pembimbing.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\Pembimbing.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pembimbing->selesai('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 11:53:21 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Pembimbing.php on line 81.
+ 1 APPPATH\Controllers\Pembimbing.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\Pembimbing.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pembimbing->selesai('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 11:54:39 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Pembimbing.php on line 81.
+ 1 APPPATH\Controllers\Pembimbing.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\Pembimbing.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pembimbing->selesai('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-07 21:11:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND `kategori` = :kategori:' at line 3 in C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\pkl\app\Controllers\Admin.php(912): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(904): App\Controllers\Admin->nilai('2')
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pkl\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-07 21:11:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND `kategori` = :kategori:' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `penilaian`
+WHERE 0 = :0:
+AND 1 = :1:
+AND `kategori` = :kategori:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `penilaian`
+WHERE 0 = :0:
+AND 1 = :1:
+AND `kategori` = :kategori:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `penilaian`
+WHERE 0 = :0:
+AND 1 = :1:
+AND `kategori` = :kategori:')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penilaian`
+WHERE 0 = :0:
+AND 1 = :1:
+AND `kategori` = :kategori:', [...], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\Admin.php(912): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->nilai('2')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 21:28:52 --> Attempt to read property "nilai" on null
+in APPPATH\Views\admin\nilaiSiswa.php on line 88.
+ 1 APPPATH\Views\admin\nilaiSiswa.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nilai" on null', 'APPPATH\\Views\\admin\\nilaiSiswa.php', 88)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\nilaiSiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/nilaiSiswa', [], true)
+ 5 APPPATH\Controllers\Admin.php(920): view('admin/nilaiSiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->nilai('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 21:31:25 --> Undefined variable $t
+in APPPATH\Views\admin\nilaiSiswa.php on line 66.
+ 1 APPPATH\Views\admin\nilaiSiswa.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $t', 'APPPATH\\Views\\admin\\nilaiSiswa.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\nilaiSiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/nilaiSiswa', [], true)
+ 5 APPPATH\Controllers\Admin.php(920): view('admin/nilaiSiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->nilai('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 21:51:29 --> Undefined variable $p
+in APPPATH\Views\admin\nilaiSiswa.php on line 59.
+ 1 APPPATH\Views\admin\nilaiSiswa.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', 'APPPATH\\Views\\admin\\nilaiSiswa.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\nilaiSiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/nilaiSiswa', [], true)
+ 5 APPPATH\Controllers\Admin.php(925): view('admin/nilaiSiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->nilai('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
